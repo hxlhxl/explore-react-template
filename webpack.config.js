@@ -27,6 +27,7 @@ const config = {
         })
     ],
     resolve: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
         alias: {
         }
     },
