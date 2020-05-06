@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-const Button = () => (<div>button</div>)
+import App from './app';
+
 const elem = document.getElementById('root');
-render(<Button />, elem);
+render(<App />, elem);
